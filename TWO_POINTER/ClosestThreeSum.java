@@ -29,7 +29,6 @@ public class ClosestThreeSum {
                     ressum = sum;
                 }
 
-                // move pointers
                 if (sum > 0) {
                     right--;
                 } else {
