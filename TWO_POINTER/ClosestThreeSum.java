@@ -6,12 +6,12 @@ public class ClosestThreeSum {
 
         int arr[] = {-1, 0, 1, 2, -1, 4};
 
-        int min_diff = Integer.MAX_VALUE;   // store minimum difference from 0
+        int min_diff = Integer.MAX_VALUE;  
         int new_diff = 0;
         int ressum = 0;
-        int target = 20;
+        int target = 23;
 
-        Arrays.sort(arr);   // O(n log n)
+        Arrays.sort(arr);   
 
         for (int i = 0; i < arr.length - 2; i++) {
 
